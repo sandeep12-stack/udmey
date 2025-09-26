@@ -1,0 +1,126 @@
+*body{
+    padding: 0%;
+    margin: 0%;
+}
+.section1{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    border-bottom: solid black 1px;
+}
+.subject1{
+font-size: larger;
+color: blueviolet;
+}
+.subject2{
+width: 100%;
+border: solid black 2px;
+border-radius: 10px;
+padding: 2px;
+}
+.subject2 input{
+    border: none;
+}
+.subject3{
+display: flex;
+align-items: center;
+gap: 8px;
+
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+
+}
+.title p{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.title p:hover{
+        color: gray;
+        cursor: pointer;    
+}
+.imgg{
+    width: 100%;
+}
+
+
+
+.recommend {
+    margin-top: 20px;
+}
+
+.container{
+ margin-top: 10px;
+ display: flex;
+ justify-content: space-around;
+ gap: 30px;
+ flex-wrap: wrap;
+}
+
+.card{
+
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+.card{
+width:200px;
+}
+
+.card img{
+    height: 50%;
+    width: 100%;
+}
+.topic h2{
+margin-top: 20px;
+}
+
+.Topic_1{
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Topic_1 p{
+    border:  solid black 1px;
+    padding: 5px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.popular{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+
+  }
+
+  .footer{
+    background-color: black;
+    color: aliceblue;
+  }
+  .footsection{
+    display: flex;
+    gap: 10px;
+  }
+
+  .footsection p {
+    margin: 20px;
+  }
+
+
+  .footer_bottom{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
